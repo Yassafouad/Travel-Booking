@@ -24,7 +24,7 @@ export default function HomePage() {
               </span>
             </h1>
             <p className="text-xl text-gray-600 dark:text-gray-400 max-w-3xl mx-auto mb-8">
-              Book flights to the world's most amazing destinations with ease. 
+              Book flights to the world&apos;s most amazing destinations with ease. 
               Find the best deals and create unforgettable memories.
             </p>
           </div>
@@ -49,7 +49,7 @@ export default function HomePage() {
                 <Heart size={32} className="text-purple-600 dark:text-purple-400" />
               </div>
               <h3 className="text-xl font-semibold text-gray-900 dark:text-white mb-2">24/7 Support</h3>
-              <p className="text-gray-600 dark:text-gray-400">We're here to help anytime</p>
+              <p className="text-gray-600 dark:text-gray-400">We&apos;re here to help anytime</p>
             </div>
           </div>
 
