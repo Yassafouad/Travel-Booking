@@ -1,4 +1,60 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Travel Booking UI
+
+A fully responsive and advanced Travel Booking UI web application built with:
+
+- **Next.js 14+ (App Router)**
+- **Tailwind CSS**
+- **Framer Motion**
+- **React Hook Form + Zod**
+- **Lucide-react**
+- **react-hot-toast**
+- **react-day-picker**
+
+## Project Structure
+
+```
+src/
+  app/
+    layout.tsx
+    page.tsx                    → Homepage (Hero + Flight Search)
+    search/page.tsx            → Search Results Page
+    booking/page.tsx           → 3-step Booking Form
+    confirmation/page.tsx      → Booking Success Page
+    not-found.tsx
+  components/
+    layout/Navbar.tsx
+    layout/Footer.tsx
+    search/SearchForm.tsx
+    search/FilterSidebar.tsx
+    flight/FlightCard.tsx
+    booking/StepOne.tsx        → Passenger Info
+    booking/StepTwo.tsx        → Payment Info
+    booking/StepThree.tsx      → Review + Confirm
+    ui/Button.tsx
+    ui/Input.tsx
+    ui/Select.tsx
+    ui/DatePicker.tsx
+  lib/
+    mock-data.ts               → Contains fake flights data
+    utils.ts                   → Utility functions like formatPrice
+```
+
+## Features
+- Hero section with background image/gradient
+- Flight search form (origin, destination, dates, travelers, class)
+- Search results with filters and sorting
+- Multi-step booking form (passenger, payment, review)
+- Booking confirmation with summary and download ticket
+- Dark mode toggle
+- Framer Motion animations
+- Responsive layout
+- Toast notifications
+- Save to localStorage
+- SEO meta tags
+
+---
+
+**No real backend or database. All data is mock/static or in localStorage.**
 
 ## Getting Started
 
