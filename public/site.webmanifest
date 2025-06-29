@@ -1,16 +1,29 @@
 {
-  "name": "TravelBook",
+  "name": "TravelBook - Book Your Next Adventure",
   "short_name": "TravelBook",
-  "description": "Book flights to amazing destinations",
+  "description": "Find and book flights to the world's most amazing destinations with ease. Compare prices and create unforgettable memories.",
   "start_url": "/",
   "display": "standalone",
   "background_color": "#ffffff",
   "theme_color": "#3B82F6",
+  "orientation": "portrait-primary",
+  "scope": "/",
   "icons": [
     {
       "src": "/favicon.svg",
       "sizes": "32x32",
-      "type": "image/svg+xml"
+      "type": "image/svg+xml",
+      "purpose": "any"
+    },
+    {
+      "src": "/favicon.ico",
+      "sizes": "16x16 32x32 48x48",
+      "type": "image/x-icon"
+    },
+    {
+      "src": "/apple-touch-icon.png",
+      "sizes": "180x180",
+      "type": "image/png"
     }
   ]
 } 
